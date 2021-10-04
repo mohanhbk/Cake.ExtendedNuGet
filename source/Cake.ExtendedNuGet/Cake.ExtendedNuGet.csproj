@@ -30,8 +30,9 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.ExtendedNuGet.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>View Readme</PackageReadmeFile>
   </PropertyGroup>
-
+ 
   <ItemGroup>
     <PackageReference Include="Cake.Addin.Analyzer" Version="0.1.3">
       <PrivateAssets>all</PrivateAssets>
@@ -49,6 +50,7 @@
     </PackageReference>
     <PackageReference Include="NuGet.Packaging" Version="5.4.0" PrivateAssets="All" />
     <PackageReference Include="NuGet.Protocol" Version="5.4.0" PrivateAssets="All" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
